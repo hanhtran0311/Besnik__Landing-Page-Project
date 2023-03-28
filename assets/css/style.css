@@ -105,16 +105,18 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    padding-top: 130px;
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.hero .info {
+.hero-wrap .info {
     /* lấy chỉ số trong thiết kế chia cho width content 1110 rồi nhân cho 100% */
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
@@ -123,7 +125,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     font-style: normal;
     font-weight: 700;
@@ -133,7 +135,7 @@ a {
     
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     font-style: normal;
     font-weight: 400;
